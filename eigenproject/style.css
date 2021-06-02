@@ -4,6 +4,7 @@
 meegenomen in de width en de heigth van een element*/
 html {
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 *,
@@ -31,14 +32,17 @@ body {
 
 .myClass {
     margin: 10px;
-    padding: 1p;
-    /*border: 3px solid purple; */
+    padding: 1px;
     text-align: center;
 }
 
 a:link {
     color: white;
 
+}
+
+a:hover {
+    color: red;
 }
 
 #link {
@@ -48,6 +52,15 @@ a:link {
 }
 
 img {
-
+    width: 50vw;
     border: 10px solid black;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
